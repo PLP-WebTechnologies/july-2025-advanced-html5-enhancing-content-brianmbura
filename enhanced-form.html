@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced HTML5 Content & Form</title>
+</head>
+<body>
+
+<header>
+    <h1>All about Web Developmet</h1>
+    <p>Below as some of must get or must know to become a Front-End Developer.</p>
+</header>
+
+<main>
+    <!-- Lists Section -->
+    <section>
+        <h2>Popular Web Development Technologies</h2>
+        <ol>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+        </ol>
+
+        <p>These technologies are essential for creating modern web applications.</p>
+        <h3>Essentials for creating modern web applications</h3>
+        <ul>
+            <li>Frontend Development</li>
+            <li>Backend Development</li>
+            <li>Fullstack Development</li>
+        </ul>
+    </section>
+
+    <!-- Table Section -->
+    <section>
+        <h2>Course Schedule</h2>
+        <p>Now am going to schedule a workable time table to assist you learn to become a professional Deb Developer</p>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Day</th>
+                    <th>Topic</th>
+                    <th>Time</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Monday</td>
+                    <td>HTML5 Basics</td>
+                    <td>10:00 AM - 12:00 PM</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>CSS3 Styling</td>
+                    <td>10:00 AM - 12:00 PM</td>
+                </tr>
+                <tr>
+                    <td>Friday</td>
+                    <td>JavaScript Essentials</td>
+                    <td>10:00 AM - 12:00 PM</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Media Section -->
+    <section>
+        <h2>Here is a screenshot of a Web Developer's screen.</h2>
+        <img src="./img.jpg" alt="screenshot of a Web Developer's screen" width="600" height="350">
+
+        <h3>Introductory Video</h3>
+
+        <iframe width="560" height="315" 
+            src="https://www.youtube.com/embed/GxmfcnU3feo?si=QHGYtWM-xmhv-H0c" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen>
+        </iframe>
+
+        <h3>Music to listen when coding</h3>
+
+        <iframe width="560" height="315" 
+        src="https://www.youtube.com/embed/xTgee06CgLg?si=y2gcOpVRCF8-Hby4" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen>
+    </iframe>
+
+    </section>
+
+    <!-- HTML5 Form Section -->
+    <section>
+        <p>Are you still interested in being a Web Developer? <br />If yes kindly please fill in the form below.</p>
+        <h2>Registration Form</h2>
+
+        <form action="#" method="post" autocomplete="on">
+            <fieldset>
+                <legend>Personal Information</legend>
+                
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" placeholder="John Doe" required minlength="3">
+                <br><br>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="example@mail.com" required>
+                <br><br>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="+254712345678" pattern="^\+?[0-9]{10,15}$" required>
+            </fieldset>
+            <br>
+
+            
+            <br>
+
+            <fieldset>
+                <legend>Preferences</legend>
+
+                <label for="course">Select Course:</label>
+                <select id="course" name="course" required>
+                    <option value="">--Choose--</option>
+                    <option value="frontend">Frontend Development</option>
+                    <option value="backend">Backend Development</option>
+                    <option value="fullstack">Fullstack Development</option>
+                </select>
+                <br><br>
+
+                <label for="bio">Short Bio:</label><br>
+                <textarea id="bio" name="bio" placeholder="Tell us about yourself..." rows="4"></textarea>
+                <br><br>
+
+                <label>
+                    <input type="checkbox" name="agree" required> I agree to the terms and conditions
+                </label>
+            </fieldset>
+            <br>
+
+            <button type="submit">Submit Registration</button>
+            <br/>
+            <br/>
+        </form>
+    </section>
+</main>
+
+</body>
+</html>
